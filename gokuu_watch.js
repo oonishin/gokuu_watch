@@ -56,10 +56,10 @@ function check(url,msg){
 function push(msg){
 
    var request = require('request');
-   var im-kayac_id = '';
+   var im_kayac_username = '';
 
    // URL
-   var baseUrl = 'http://im.kayac.com/api/post/' + im-kayac_id ;
+   var baseUrl = 'http://im.kayac.com/api/post/' + im_kayac_username;
 
    request.post(
        baseUrl,
