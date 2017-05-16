@@ -7,9 +7,9 @@ gokuu_watch.jsの59行目付近の var im-kayac_id = ''; にim.kayac.comのusern
 
 requestモジュールとhttpモジュール必須。
 
-npm install http
+`npm install http`
+`npm install request`
 
-npm install request
 でインストールしておくこと。
 
 ぶっちゃけ、requestモジュールだけで十分ですが、書き直すの邪魔くさいので、そのまま。
