@@ -7,13 +7,10 @@ gokuu_watch.jsの59行目付近の
 `var im_kayac_username = '';`
 にim.kayac.comのusernameを設定すること。
 
-requestモジュールとhttpモジュール必須。
+requestモジュール必須。
 
-`npm install http` 
 `npm install request`
 
 でインストールしておくこと。
-
-ぶっちゃけ、requestモジュールだけで十分ですが、書き直すの邪魔くさいので、そのまま。
 
 あとはcron 等でnode gokuu_watch.js を定期的に叩けばオッケー。
